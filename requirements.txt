@@ -1,0 +1,6 @@
+pandas
+requests
+scikit-learn
+statsmodels
+glob2
+doccano-client~=1.2.7
