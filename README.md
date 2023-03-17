@@ -91,12 +91,12 @@ The Command Line Interface (CLI) uses the following syntax:
 
 The 4 basic available COMMANDs are
 
-| COMMAND    | Step | To be used                    | Description                                                 |
-|------------|------|-------------------------------|-------------------------------------------------------------|
-| **assign** | 1    | in the beginning              | split the data and assign it to the annotators              |
-| **merge**  | 2    | after individual annotations  | merge the different annotations                             |
-| **finish** | 3    | after resolution of conflicts | download the final annotations                              |
-| **status** | -    | anytime                       | check the data and annotation status in the annotation tool |
+| COMMAND    | Step | To be used                    | Description                           |
+|------------|------|-------------------------------|---------------------------------------|
+| **assign** | 1    | in the beginning              | assign data to annotators             |
+| **merge**  | 2    | after individual annotations  | merge individual annotations          |
+| **finish** | 3    | after resolution of conflicts | download final annotations and finish |
+| **status** | -    | anytime                       | check annotation status               |
 
 
 It is possible to specify different config and project files than the default 
